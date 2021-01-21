@@ -1,0 +1,15 @@
+
+/* RESET SETTINGS */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* /RESET SETTINGS */
+
+/* FONT-FAMILY */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* /FONT-FAMILY */
