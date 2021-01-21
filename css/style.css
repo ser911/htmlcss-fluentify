@@ -13,7 +13,10 @@ body{
 /* /FONT-FAMILY */
 
 header{
+  margin-top: 10px;
   background-color: #0C325A;
+  height: 600px;
+
 }
 
 #header-wrapper{
@@ -77,5 +80,46 @@ display: inline-block;
   background-color: #7CBB02;
   border-radius: 5px;
   padding: 6px 10px;
+}
 
+#header-hero{
+height: 700px;
+}
+
+.hero-1, .hero-2, h1{
+  display: inline-block;
+}
+
+.hero-1{
+margin-left: 80px;
+
+}
+
+h1{
+color: #FFFFFF;
+font-size: 40px;
+}
+
+.hero-1 button{
+  display:block;
+  border: 1px solid #7CBB02;
+  background-color: #7CBB02;
+  border-radius: 5px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+  padding: 18px 6px;
+}
+
+.hero-2{
+  width: 55%;
+  position: relative;
+  top: 100px;
+
+}
+
+.hero-2 > img{
+width: 100%;
 }
