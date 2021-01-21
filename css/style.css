@@ -15,7 +15,7 @@ body{
 header{
   margin-top: 10px;
   background-color: #0C325A;
-  height: 600px;
+  /* height: 600px; */
 
 }
 
@@ -51,9 +51,8 @@ display: inline-block;
 
 .side-nav{
   display: inline-block;
-
-
 }
+
 .side-nav ul li {
   display: inline-block;
 }
@@ -83,7 +82,7 @@ display: inline-block;
 }
 
 #header-hero{
-height: 700px;
+/* height: 600px; */
 }
 
 .hero-1, .hero-2, h1{
@@ -116,7 +115,7 @@ font-size: 40px;
 .hero-2{
   width: 55%;
   position: relative;
-  top: 100px;
+  top: 40px;
 
 }
 
