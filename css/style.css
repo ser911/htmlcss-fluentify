@@ -15,8 +15,6 @@ body{
 header{
   margin-top: 10px;
   background-color: #0C325A;
-  /* height: 600px; */
-
 }
 
 #header-wrapper{
@@ -35,7 +33,6 @@ display: inline-block;
 
 .main-nav ul li{
   display: inline-block;
-
 }
 
 .main-nav ul li a{
@@ -51,6 +48,7 @@ display: inline-block;
 
 .side-nav{
   display: inline-block;
+  margin-bottom: 100px;
 }
 
 .side-nav ul li {
@@ -68,7 +66,6 @@ display: inline-block;
   margin-right: 5px;
 }
 
-
 #button-1{
   border: 1px solid #FFFFFF;
   border-radius: 5px;
@@ -82,7 +79,8 @@ display: inline-block;
 }
 
 #header-hero{
-/* height: 600px; */
+height: auto;
+margin-top: 90px;
 }
 
 .hero-1, .hero-2, h1{
@@ -91,7 +89,8 @@ display: inline-block;
 
 .hero-1{
 margin-left: 80px;
-
+position: relative;
+bottom: 70px;
 }
 
 h1{
@@ -115,10 +114,82 @@ font-size: 40px;
 .hero-2{
   width: 55%;
   position: relative;
-  top: 40px;
-
+  top: 30px;
 }
 
 .hero-2 > img{
 width: 100%;
+position: absolute;
+bottom: 10px;
+}
+
+.upper-main{
+  height: auto;
+  background-color: #D3D3D3;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.upper-main > h3{
+padding-top: 35px;
+margin-bottom: 10px;
+}
+
+.upper-main > h4{
+padding-bottom: 20px;
+color: #808080;
+font-size: 14px;
+font-weight: 200;
+}
+
+/* #column-layout::after{
+  clear: both;
+  content: "";
+  display:block;
+} */
+
+/* COLUMNS LAYOUT */
+
+.columns{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col-left, .col-center, .col-right{
+  float: left;
+  width: 30%;
+  margin-right: 15px;
+  margin-left: 15px;
+    text-align: center;
+  }
+
+.col-left{
+text-align: center;
+}
+
+.col-left > img, .col-center > img, .col-right > img{
+  width: 100px;
+  height: 140px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-left > h3, .col-center > h3, .col-right > h3{
+  color: #7CBB02;
+  padding-top: 20px;
+}
+
+.col-left > hr, .col-center > hr, .col-right > hr{
+  width: 20%;
+  margin: 10px auto;
+}
+
+.col-left > p, .col-center > p, .col-right > p{
+  color: #808080;
+  line-height: 20px;
+
+}
+.col-left, .col-center, .col-right{
+
 }
